@@ -10,13 +10,8 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        val add : Button = findViewById(R.id.button)
-        add.setOnClickListener {viewadd()}
+
     }
 
-    private fun viewadd() {
-        val intent = Intent(this, AddActivity::class.java)
-        startActivity(intent)
-    }
 
 }

@@ -28,7 +28,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="14dp"
         android:gravity="top"
-        android:hint="Add note"
+        android:hint="Description"
         android:minLines="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.85"
@@ -45,20 +45,22 @@
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042"
-        app:srcCompat="@drawable/back" />
+        app:layout_constraintVertical_bias="0.042"/>
+
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="282dp"
-        android:layout_height="48dp"
+        android:layout_width="319dp"
+        android:layout_height="88dp"
         android:fontFamily="sans-serif-black"
-        android:text="Create Your List"
-        android:textColor="@color/colorblue"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:text="Add List"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
@@ -72,8 +74,31 @@
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_note"
-        app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/save" />
+        app:layout_constraintVertical_bias="0.88"/>
+
+    <ImageView
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_note"
+        app:layout_constraintVertical_bias="0.65"
+        app:srcCompat="@drawable/button_add" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:text="Add new list"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_note"-->
+<!--        app:layout_constraintVertical_bias="0.68" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

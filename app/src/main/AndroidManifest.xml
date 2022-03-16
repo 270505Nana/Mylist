@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mylist">
         <activity
-            android:name=".ShowActivity"
+            android:name=".MyprofileActivity"
             android:exported="false" />
         <activity
-            android:name=".AdddActivity"
+            android:name=".ShowActivity"
             android:exported="false" />
         <activity
             android:name=".AddActivity"
