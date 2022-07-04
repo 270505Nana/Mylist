@@ -4,37 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyprofileActivity"
     android:background="@mipmap/my_profile"
-   >
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="32dp"
-    android:layout_marginRight="20dp">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:paddingTop="15dp"
-        android:rotationX="-4"
-        android:text="My profile"
-        android:textAlignment="viewStart"
-        android:textColor="#000000"
-        android:textSize="33dp"
-        />
+    tools:context=".MyprofileActivity">
 
-    <ImageView
-        android:id="@+id/profile"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="292dp"
-        android:layout_alignParentCenter="true"
-        android:paddingTop="100dp"
-        app:srcCompat="@drawable/profile_sq" />
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:rotationX="-4"
+            android:text="My profile"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="292dp"
+            android:paddingTop="100dp"
+            app:srcCompat="@drawable/profile_sq" />
+
+        <com.example.mylist.Utills.FontText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="75dp"
+            android:paddingTop="395dp"
+            android:rotationX="-4"
+            android:text="Ahmad Ichsan"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="228dp"
+            android:layout_height="587dp"
+            android:paddingTop="475dp"
+            android:rotationX="-4"
+            android:text="25 - 06 - 2005"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="228dp"
+            android:layout_height="587dp"
+            android:paddingTop="525dp"
+            android:rotationX="-4"
+            android:text="Kroya - Cilacap"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="match_parent"
+            android:paddingTop="570dp"
+            android:rotationX="-4"
+            android:text="0821 - 3293 - 8431"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </RelativeLayout>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

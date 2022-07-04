@@ -29,9 +29,9 @@ class AddActivity : AppCompatActivity() {
 
 
         val title = edit_title.text.toString()
-        val note = edit_note.text.toString()
+        val description = edit_note.text.toString()
 
-        val notes = Note(title,note)
+        val notes = Note(title,description)
         val notesId = ref.push().key.toString()
 
         ref.child(notesId).setValue(notes).addOnCompleteListener {

@@ -12,14 +12,9 @@
         <activity
             android:name=".MyprofileActivity"
             android:exported="false" />
-        <activity
-            android:name=".ShowActivity"
-            android:exported="false" />
+
         <activity
             android:name=".AddActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SideBar"
             android:exported="false" />
         <activity
             android:name=".DashboardActivity"

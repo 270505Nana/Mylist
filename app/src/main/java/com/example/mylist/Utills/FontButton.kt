@@ -3,9 +3,10 @@ package com.example.mylist.Utills
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
-import androidx.appcompat.widget.AppCompatEditText
+import androidx.appcompat.widget.AppCompatButton
 
-class FontTextEdit(context: Context, attributeSet: AttributeSet): AppCompatEditText(context, attributeSet) {
+class FontButton(context: Context, attributeSet: AttributeSet):AppCompatButton(context, attributeSet) {
+
     init{
         //Call the function to apply the font to components
         applyFont()
@@ -19,5 +20,4 @@ class FontTextEdit(context: Context, attributeSet: AttributeSet): AppCompatEditT
 
         setTypeface(typeface)
     }
-
 }
